@@ -105,10 +105,7 @@ JWT_SECRET=your_jwt_secret_key
 git clone https://github.com/tanushree-coder-girl/NextBlog-Modern-Full-Stack-Blog-Application.git
 cd NextBlog-Modern-Full-Stack-Blog-Application
 
-=======
-cd NextBlog---A-Modern-Full-Stack-Blog-Platform
->>>>>>> 4ca266ed4478cb8c461086abbb7c4b50401459a0
-nt server
+run server
 npm run dev
 
 ## License
