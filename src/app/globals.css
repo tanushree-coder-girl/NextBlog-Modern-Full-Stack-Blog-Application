@@ -1,0 +1,59 @@
+@import "tailwindcss";
+/* Optional: smooth font rendering */
+html {
+  scroll-behavior: smooth;
+}
+.tiptap {
+  border: 1px solid #3b414e;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.tiptap ul {
+  list-style-type: disc;
+  padding: 0 1rem;
+}
+
+.tiptap > * + * {
+  margin-top: 0.75em;
+}
+
+.tiptap h1,
+.tiptap h2,
+.tiptap h3,
+.tiptap h4,
+.tiptap h5,
+.tiptap h6 {
+  font-size: revert;
+  font-weight: revert;
+}
+
+.blog-content h1 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin: 16px 0;
+}
+
+.blog-content h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 16px 0;
+}
+
+.blog-content h4 {
+  margin: 16px 0;
+}
+.blog-content ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+
+.blog-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+.blog-content li p {
+  display: inline;
+}
