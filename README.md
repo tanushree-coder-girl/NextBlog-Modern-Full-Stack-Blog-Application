@@ -76,7 +76,7 @@ src/
 ├── types/ # Global TypeScript types
 
 ```
-
+---
 ---
 ## Authentication Behavior
 
@@ -102,8 +102,8 @@ JWT_SECRET=your_jwt_secret_key
 # Installation
 
 # 1. Clone the repository
-git clone https://github.com/tanushree-coder-girl/NextBlog---A-Modern-Full-Stack-Blog-Platform.git
-cd NextBlog---A-Modern-Full-Stack-Blog-Platform
+git clone https://github.com/tanushree-coder-girl/NextBlog-Modern-Full-Stack-Blog-Application.git
+
 
 # 2. Install dependencies
 npm install
